@@ -1,0 +1,4 @@
+author = vizthex
+version = 0.1
+displayName = Strange Things Mod
+homepage = https://forums.terraria.org/index.php?threads/wip-strange-things-mod.71100/
