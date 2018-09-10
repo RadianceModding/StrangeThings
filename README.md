@@ -1,4 +1,4 @@
-#Strange Things Mod
+#StrangeThings
 
 The official page for the Strange Things mod for Terraria!
 
