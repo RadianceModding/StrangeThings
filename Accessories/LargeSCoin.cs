@@ -18,6 +18,7 @@ namespace StrangeThings.Accessories
                item.maxStack = 1;
 			   item.accessory = true;
 			   item.defense = 2;
+			   item.value = Item.sellPrice(0, 0, 100, 0);
         }
 
         public override void AddRecipes()
