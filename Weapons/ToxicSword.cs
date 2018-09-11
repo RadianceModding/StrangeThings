@@ -9,7 +9,7 @@ namespace StrangeThings.Weapons
 		public override void SetStaticDefaults()
 		{
 			   DisplayName.SetDefault("Toxic Sword");
-			   Tooltip.SetDefault("Slightly deadly");
+			   Tooltip.SetDefault("Somewhat deadly");
 		}
 		public override void SetDefaults()
 		{

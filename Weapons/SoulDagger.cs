@@ -14,7 +14,7 @@ namespace StrangeThings.Weapons
 		public override void SetDefaults()
 		{
 			   item.melee = true;
-			   item.damage = 10;
+			   item.damage = 15;
 			   item.knockBack = 3;
 			   item.useTime = 15;
                item.useAnimation = 19;
@@ -32,6 +32,7 @@ namespace StrangeThings.Weapons
 		{
 			     ModRecipe recipe = new ModRecipe(mod);
 	             recipe.AddIngredient(mod.GetItem("MobSoul"), 8);
+				 recipe.AddIngredient(mod.GetItem("SoulBar"), 2);
 		         recipe.AddIngredient(ItemID.GoldShortsword);
 			     recipe.AddTile(TileID.Anvils);
 		         recipe.SetResult(this);

@@ -14,7 +14,7 @@ namespace StrangeThings.Weapons
 		public override void SetDefaults()
 		{
 			   item.ranged = true;
-			   item.damage = 8;
+			   item.damage = 10;
 			   item.knockBack = 1;
 			   item.useTime = 15;
                item.useAnimation = 19;
@@ -33,7 +33,8 @@ namespace StrangeThings.Weapons
 		public override void AddRecipes()
 		{
 			     ModRecipe recipe = new ModRecipe(mod);
-	             recipe.AddIngredient(mod.GetItem("SlimeSoul"), 8);
+	             recipe.AddIngredient(mod.GetItem("SlimeSoul"), 4);
+				 recipe.AddIngredient(mod.GetItem("SoulBar"), 1);
 		         recipe.AddIngredient(ItemID.FlintlockPistol);
 			     recipe.AddTile(TileID.Anvils);
 		         recipe.SetResult(this);
