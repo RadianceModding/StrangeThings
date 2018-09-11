@@ -18,8 +18,9 @@ namespace StrangeThings.Armor
 			item.width = 18;
 			item.height = 18;
 			item.value = 100;
+			item.defense = 5;
 			item.rare = 1;
-			item.defense = 4;
+			item.value = Item.sellPrice(0, 0, 2, 0);
 		}
 
 		public override bool IsArmorSet(Item head, Item body, Item legs)
@@ -39,7 +40,7 @@ namespace StrangeThings.Armor
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-	        recipe.AddIngredient(mod.GetItem("LargeCCoin"), 1);
+	        recipe.AddIngredient(mod.GetItem("LargeCCoin"), 2);
 		    recipe.AddIngredient(ItemID.CopperChainmail);
 		    recipe.AddTile(TileID.Anvils);
 		    recipe.SetResult(this);
