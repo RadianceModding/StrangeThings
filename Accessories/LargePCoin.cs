@@ -17,13 +17,14 @@ namespace StrangeThings.Accessories
 			   item.rare = 3;
                item.maxStack = 1;
 			   item.accessory = true;
-			   item.defense = 4;
+			   item.defense = 8;
         }
 
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(mod.GetItem("CompressedPCoin"), 4);
+			recipe.AddIngredient(mod.GetItem("LargeGCoin"), 1);
             recipe.AddTile(TileID.Anvils);
             recipe.SetResult(this);
             recipe.AddRecipe();

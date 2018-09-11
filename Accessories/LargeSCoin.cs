@@ -24,6 +24,7 @@ namespace StrangeThings.Accessories
         {
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(mod.GetItem("CompressedSCoin"), 4);
+			recipe.AddIngredient(mod.GetItem("LargeCCoin"), 1);
             recipe.AddTile(TileID.Anvils);
             recipe.SetResult(this);
             recipe.AddRecipe();
