@@ -1,4 +1,4 @@
 author = vizthex
-version = 0.1
+version = 0.1-A
 displayName = Strange Things Mod
-homepage = https://forums.terraria.org/index.php?threads/wip-strange-things-mod.71100/
+homepage = https://github.com/RadianceDevelopment/StrangeThings
