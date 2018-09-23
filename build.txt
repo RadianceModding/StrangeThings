@@ -1,4 +1,4 @@
-author = vizthex
+author = Radiance Development
 version = 0.1-A
 displayName = Strange Things Mod
 homepage = https://github.com/RadianceDevelopment/StrangeThings
