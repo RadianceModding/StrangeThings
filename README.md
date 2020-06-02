@@ -6,4 +6,6 @@ You can download the sprites and code for viewing/research purposes, if you'd li
 
 Please consult the Wiki tab for more detailed info, and the Projects tab for our to-do list and list of suggestions we'll be adding
 
-You can also join our Discord server: https://discord.gg/6r4aehD
+PROJECT HAS BEEN ABANDONED (might change later)
+
+Current release: Av1.0 - https://github.com/RadianceDevelopment/StrangeThings/releases/tag/Av1.0
