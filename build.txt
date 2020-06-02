@@ -1,4 +1,4 @@
 author = Radiance Development
-version = 0.1-A
+version = 1.0
 displayName = Strange Things Mod
 homepage = https://github.com/RadianceDevelopment/StrangeThings

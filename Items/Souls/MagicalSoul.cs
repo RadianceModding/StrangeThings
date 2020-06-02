@@ -9,7 +9,7 @@ namespace StrangeThings.Items.Souls
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Magical Soul");
-			Tooltip.SetDefault("The soul of a Skeleton \nCan be used for items that crunch when touched");
+			Tooltip.SetDefault("The soul of a Pixie\nCan be used for items that crunch when touched");
 		}
 		public override void SetDefaults()
 		{

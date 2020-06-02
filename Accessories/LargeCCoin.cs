@@ -17,7 +17,7 @@ namespace StrangeThings.Accessories
 			   item.rare = 0;
                item.maxStack = 1;
 			   item.accessory = true;
-			   item.defense = 1;
+			   item.defense = 2;
 			   item.value = Item.sellPrice(0, 0, 0, 100);
         }
 
